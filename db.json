@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "studentName": "Roushan",
+      "studentEmail": "roushan@gmail.com",
+      "studentAbout": "My name is Roushan Bhadani. I completed my Btech from chandigarh univercity in computer science. I am fullstack developer. Now i am discuss my technical skills. i have html,css, js and react.js in frontend and java and node.js in backend. ",
+      "id": 1
+    },
+    {
+      "studentName": "nhjfjrfj",
+      "studentEmail": "hb dfhbhjfjrnfjrhfbhrfhrbfhr",
+      "studentAbout": "mnb mnb mnb asbdjhabsjdbhabjgsjdfgjhmnb mnb asbdjhabsjdbhabjgsjdfgjhmnb mnb asbdjhabsjdbhabjgsjdfgjhmnb mnb asbdjhabsjdbhabjgsjdfgjhmnb asbdjhabsjdbhabjgsjdfgjh",
+      "id": 4
+    },
+    {
+      "studentName": "vivek",
+      "studentEmail": "vivek@gmail.com",
+      "studentAbout": "jaghbsabduhsdhskdj",
+      "id": 5
+    },
+    {
+      "studentName": "hy",
+      "studentEmail": "hfds@gmail.com",
+      "studentAbout": "djdvjd",
+      "id": 6
+    }
+  ]
+}

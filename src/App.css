@@ -1,0 +1,261 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-container{
+  max-width: 100%;
+  background: rgb(166,255,77);
+  box-shadow: 0px 4px 20px rgb(181, 181, 181);
+  position: sticky;
+  top: 0;
+}
+
+.nav-content{
+  padding: 1.5rem 0 1.5rem 2rem;  
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.nav-content a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: all ease-in-out 0.3s;
+}
+
+.nav-content a:hover{
+  transform: scale3d(1.1,1.1,1);
+}
+
+.list-title{
+  margin: 1rem 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-container{
+  /* border: 1px solid black; */
+  margin: 1rem 0;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.list-container > :nth-child(1){
+  background-color: rgb(207, 195, 255);
+}
+
+.list-container > :nth-child(2){
+  background-color: rgb(250, 212, 155);
+}
+
+.list-container > :nth-child(3){
+  background-color: rgb(255, 192, 213);
+}
+
+.list-container > :nth-child(4){
+  background-color: rgb(171, 255, 251);
+}
+
+.list-container > :nth-child(5){
+  background-color: rgb(171, 255, 205);
+}
+
+.list-container > :nth-child(6){
+  background-color: rgb(242, 255, 171);
+}
+
+.content-container{
+  /* border: 1px solid black; */
+  border-radius: 0.65rem;
+  margin: 0.65rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items:baseline ;
+  padding: 1rem 0;
+  box-shadow: 0px 4px 20px rgb(181, 181, 181);
+}
+
+
+
+.info-container{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.info-container > :nth-child(1){
+  text-align: center;
+  color: white;
+  background-color: rgb(49, 49, 49);
+  border-radius: 50%;
+  width: 8.5%;
+  height: 45%;
+  font-weight: 500;
+  padding: 3px;
+  font-size: 1rem;
+}
+
+.info-container-sec{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.info-container p{
+  font-size: 1.5rem;
+}
+
+.btn-container{
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  gap: 1rem;
+}
+
+.btn-container button{
+  padding: 0.65rem 1rem;
+  /* border: 1.5px solid black; */
+  border: none;
+  border-radius: 0.65rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all ease 0.4s;
+}
+
+.btn-container button:hover{
+  transform: scale3d(1.1,1.1,1);
+}
+
+.btn-container button a{
+  padding: 0.65rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-container > :nth-child(1){
+  background-color: rgb(0, 178, 0) ;
+}
+
+.btn-container > :nth-child(2){
+  background-color: yellow ;
+}
+
+.btn-container > :nth-child(3){
+  background-color: rgb(255, 80, 80) ;
+}
+
+
+
+
+
+
+
+
+
+.input-container{
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input{
+  height: 3rem;
+  width: 25rem;
+  border-radius: 10px;
+  border: 1.5px solid black;
+  outline: 1.5px solid rgb(166, 255, 77);
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+
+.input-container button{
+  cursor: pointer;
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  background-color:rgb(166, 255, 77);
+  box-shadow: 5px 5px 6px black;
+  transition: all ease 0.4s;
+}
+
+.input-container button:hover{
+  box-shadow: 0px 4px 20px rgb(150, 150, 150);
+  transform: scale3d(1.1,1.1,1.1);
+}
+
+
+
+
+.view-btn-container{
+  margin: 2rem;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.view-btn-container button{
+  width: 12rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  background-color:rgb(166, 255, 77);
+  box-shadow: 5px 5px 6px black;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+
+.view-btn-container :hover{
+  box-shadow: 0px 4px 20px rgb(150, 150, 150);
+  transform: scale3d(1.1,1.1,1.1);
+}
+
+.view-content-container h1{
+  width: 100%;
+  text-align: center;
+}
+
+.view-content-container{
+  margin: 0 2rem 5rem 2rem;
+  padding: 2rem 4rem 4rem 4rem;
+  border-radius: 0.65rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: start;
+  gap:2rem;
+  box-shadow: 0px 4px 20px rgb(181, 181, 181);
+}
+
+.view-content-container p{
+  font-size: 1.5rem;
+}
+
+.view-content-container p span{
+  font-weight: 500;
+}
+
+
+
+
